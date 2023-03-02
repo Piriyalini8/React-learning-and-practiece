@@ -7,6 +7,7 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClicked from './components/FunctionClicked';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
@@ -40,8 +41,11 @@ function App() {
       <Welcome name="Kishan" heroName="Superman"/> */}
 
       {/* Event Handling */}
-      <FunctionClicked/>
-      <ClassClick/>
+      {/* <FunctionClicked/>
+      <ClassClick/> */}
+
+      {/* Binding Event Handlers */}
+      <EventBind/>
 
     </div>
   );
