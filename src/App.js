@@ -5,6 +5,8 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClicked from './components/FunctionClicked';
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
@@ -34,8 +36,12 @@ function App() {
       {/* <Counter/> */}
 
       {/* Destructuring props and state */}
-      <Greet name="Priya" heroName="Wonder Women"/>
-      <Welcome name="Kishan" heroName="Superman"/>
+      {/* <Greet name="Priya" heroName="Wonder Women"/>
+      <Welcome name="Kishan" heroName="Superman"/> */}
+
+      {/* Event Handling */}
+      <FunctionClicked/>
+      <ClassClick/>
 
     </div>
   );
