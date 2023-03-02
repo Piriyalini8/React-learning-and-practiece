@@ -31,7 +31,11 @@ function App() {
       {/* <Message/> */}
 
       {/* setState practiece */}
-      <Counter/>
+      {/* <Counter/> */}
+
+      {/* Destructuring props and state */}
+      <Greet name="Priya" heroName="Wonder Women"/>
+      <Welcome name="Kishan" heroName="Superman"/>
 
     </div>
   );
