@@ -8,6 +8,7 @@ import Counter from './components/Counter';
 import FunctionClicked from './components/FunctionClicked';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
@@ -45,7 +46,10 @@ function App() {
       <ClassClick/> */}
 
       {/* Binding Event Handlers */}
-      <EventBind/>
+      {/* <EventBind/> */}
+
+      {/* Methods as props (child to parent communication) */}
+      <ParentComponent/>
 
     </div>
   );
