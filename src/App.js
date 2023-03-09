@@ -11,6 +11,10 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import StyleSheet from './components/StyleSheet';
+import Inline from './components/Inline';
+import './appStyles.css';
+import styles from './appStyles.module.css';
 
 function App() {
   return (
@@ -57,7 +61,20 @@ function App() {
       <UserGreeting/>
 
       {/* List Rendering */}
-      <NameList/>
+      {/* <NameList/> */}
+
+      {/* Styling and css basics */}
+      {/* use css style sheets */}
+      {/* <StyleSheet primary={false}/> */}
+
+      {/* Use Inline styling */}
+      {/* <Inline/> */}
+
+      {/* Use normal css file styling */}
+      <h2 className='error'>Error</h2>
+      
+      {/* use Css module styling */}
+      <h2 className={styles.success}>Success</h2>
 
     </div>
   );
