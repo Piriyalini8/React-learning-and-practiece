@@ -9,6 +9,7 @@ import FunctionClicked from './components/FunctionClicked';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 
 function App() {
   return (
@@ -49,7 +50,10 @@ function App() {
       {/* <EventBind/> */}
 
       {/* Methods as props (child to parent communication) */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+
+      {/* Conditional rendering */}
+      <UserGreeting/>
 
     </div>
   );
