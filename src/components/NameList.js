@@ -2,6 +2,15 @@ import React from 'react'
 import Person from './Person'
 
 function NameList() {
+    // Index as key sample
+    const names = ['Priya', 'Kishan', 'Pavi']
+    const nameList = names.map((name, index) => <h2 key={index}>{name}</h2>)
+    return (
+        <div>{nameList}</div>
+
+    )
+
+    // // 
     const persons = [
         {
             id: 1,
