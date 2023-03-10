@@ -15,6 +15,7 @@ import StyleSheet from './components/StyleSheet';
 import Inline from './components/Inline';
 import './appStyles.css';
 import styles from './appStyles.module.css';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -71,10 +72,13 @@ function App() {
       {/* <Inline/> */}
 
       {/* Use normal css file styling */}
-      <h2 className='error'>Error</h2>
+      {/* <h2 className='error'>Error</h2> */}
       
       {/* use Css module styling */}
-      <h2 className={styles.success}>Success</h2>
+      {/* <h2 className={styles.success}>Success</h2> */}
+
+      {/* 21- Basics of form handling */}
+      <Form/>
 
     </div>
   );
